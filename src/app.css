@@ -1,1 +1,10 @@
 @import 'tailwindcss';
+
+* {
+    font-family: "futura-pt", sans-serif;
+}
+
+.fa-sharp-duotone {
+    --fa-secondary-opacity: 1;
+    --fa-secondary-color: var(--color-amber-300);
+  }

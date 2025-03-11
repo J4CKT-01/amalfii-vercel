@@ -1,3 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-<h1>how quick can you update?</h1>
+<script lang="ts">
+    import { AboutUs, HeroSection, ImageGallery, TrustedBy } from "$lib";
+</script>
+
+<HeroSection />
+<AboutUs />
+<TrustedBy />
+<ImageGallery />
