@@ -12,7 +12,7 @@
 
 <section>
 	<div class="container mx-auto flex flex-col p-6 xl:flex-row">
-		<div class="mb-15 w-full flex items-center space-y-10 text-center xl:mb-0 xl:w-1/2 xl:text-left">
+		<div class="my-20 w-full flex items-center space-y-10 text-center xl:my-0 xl:w-1/2 xl:text-left">
 			<Header>Trusted by some of the biggest names in the business!</Header>
 		</div>
         <div class="w-full items-center justify-center xl:w-1/2 lg:pl-25">
