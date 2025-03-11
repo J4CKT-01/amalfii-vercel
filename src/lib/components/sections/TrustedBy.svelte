@@ -16,33 +16,28 @@
 			<Header>Trusted by some of the biggest names in the business!</Header>
 		</div>
         <div class="w-full items-center justify-center xl:w-1/2 lg:pl-25">
-			<div class="grid grid-cols-3 grid-rows-3 gap-10">
-                <div class="size-40">
-                    <img src={checkatrade} alt="">
-                </div>
-                <div class="size-40">
+			<div class="grid grid-cols-2 grid-rows-3 lg:grid-cols-3 lg:grid-rows-3 gap-10">
+                <div>
                     <img src={ovo} alt="">
                 </div>
-                <div class="size-40">
+                <div>
                     <img src={refcom} alt="">
                 </div>
-                <div class="size-40">
+                <div>
                     <img src={glowgreen} alt="">
                 </div>
-                <div class="size-40">
+                <div>
                     <img src={hometree} alt="">
                 </div>
-                <div class="size-40">
+                <div>
                     <img src={verysmart} alt="">
                 </div>
-                <div class="size-40">
+                <div>
                     <img src={boxt} alt="">
                 </div>
 
-                <div class="subgrid col-span-2">
-                    <div class="w-85">
+                <div class="subgrid col-span-3">
                         <img src={yourrepair} alt="">
-                    </div>
                 </div>
             </div>
 		</div>
