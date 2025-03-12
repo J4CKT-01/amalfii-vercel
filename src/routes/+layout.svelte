@@ -45,13 +45,13 @@
 			<i class="fa-sharp-duotone fa-regular fa-thumbs-up px-40"></i>
 			<i class="fa-sharp-duotone fa-regular fa-thumbs-up"></i>
 		</div> -->
-		<div class="py-6 w-full flex justify-evenly">
-			<a class="" href="/">Home</a>
-			<a class="px-15" href="/services">Services and Pricing</a>
-			<a class="" href="/contact">Contact</a>
+		<div class="py-5 w-full flex justify-evenly">
+			<a class="hover:underline" href="/">Home</a>
+			<a class="hover:underline" href="/services">Services and Pricing</a>
+			<a class="hover:underline" href="/contact">Contact</a>
 		</div>
 	</div>
-	<div class="w-full text-center py-4 text-gray-600">
+	<div class="w-full text-center py-3 text-gray-600">
 		<p>Amalfii Heating ©x-2024 All Rights Reserved. <a class="underline" href="/terms-and-conditions">Terms of Use</a> and <a class="underline" href="/terms-and-conditions">Privacy Policy</a></p>
 	</div>
 </footer>
