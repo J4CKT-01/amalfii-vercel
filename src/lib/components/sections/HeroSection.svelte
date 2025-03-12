@@ -4,8 +4,8 @@
 
 
 <section>
-    <div class="container flex flex-col lg:flex-row mx-auto items-center p-6 mt-15">
-        <div class="w-full lg:w-1/2 space-y-20 text-center lg:text-left">
+    <div class="container grid auto-rows-fr lg:grid-cols-2 mx-auto items-center p-6 mt-15">
+        <div class="flex flex-col justify-center h-full space-y-20 text-center lg:text-left">
         <h1 class="text-8xl font-bold">Amal<span class="text-amber-300">fii</span> Heating</h1>
         <h2 class="text-4xl">Experts in home heating solutions</h2>
         <div class="flex flex-row lg:flex-row space-y-15 justify-evenly lg:justify-start">
@@ -23,8 +23,8 @@
             </div>
         </div>
         </div>
-        <div class="w-full lg:w-1/2 flex items-center justify-center">
-            <div><img class="object-cover object-right max-h-140 w-full rounded-2xl mb-15" src={HeroImage} alt=""></div>
+        <div class="h-160 hidden lg:block">
+            <img class="object-cover w-full h-full rounded-3xl" src={HeroImage} alt="">
         </div>
     </div>
 </section>

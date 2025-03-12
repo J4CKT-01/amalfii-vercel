@@ -4,8 +4,8 @@
 
 <section>
 	<div class="container mx-auto mt-15 flex flex-col p-6 lg:flex-row">
-        <div class="mb-15 w-full space-y-10 lg:space-y-25 text-center lg:mb-0 lg:w-1/2 lg:text-left">
-            <Header>About us</Header>
+        <div class="flex flex-col justify-center mb-15 w-full space-y-10 lg:space-y-25 text-center lg:mb-0 lg:w-1/2 lg:text-left">
+            <Header>General services we provide</Header>
             <p class=" text-3xl">
                 In addition to service plans, Amalfii Heating can help with a variety of plumbing and 
                 heating issues. We provide repairs, installations and one off services to....

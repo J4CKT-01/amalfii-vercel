@@ -21,14 +21,14 @@
 		</div>
 	<!-- Dropdown Button -->
 	<div class="flex lg:hidden text-2xl">
-		<button aria-label="menu" onclick={() => menuopen = !menuopen} class="h-full {menuopen ? "shadow-2xl" : " "} py-4 px-15 "><i class="fa-sharp-duotone fa-regular fa-bars"></i></button>
+		<button aria-label="menu" onclick={() => menuopen = !menuopen} class="h-full {menuopen ? "bg-amber-300" : " "} py-4 px-15 "><i class="fa-sharp-duotone fa-regular fa-bars"></i></button>
 	</div>
 	<!-- Dropdown Menu -->
 	</div>
 	<div class="{menuopen ? "flex" : "hidden"} flex-col lg:hidden justify-evenly text-2xl text-center">
-		<a href="/" class="{page.route.id === "/" ? "bg-amber-300" : " "} py-4 px-15 ">Home</a>
-		<a href="/services" class="{page.route.id === "/services" ? "bg-amber-300" : " "} py-4 px-15">Services and Pricing</a>
-		<a href="/contact" class="{page.route.id === "/contact" ? "bg-amber-300" : " "} py-4 px-15">Contact</a>
+		<a href="/" onclick={() => menuopen = false} class="{page.route.id === "/" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Home</a>
+		<a href="/services" onclick={() => menuopen = false} class="{page.route.id === "/services" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Services and Pricing</a>
+		<a href="/contact" onclick={() => menuopen = false} class="{page.route.id === "/contact" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Contact</a>
 	</div>
 </nav>
 

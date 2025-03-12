@@ -11,14 +11,14 @@
 </script>
 
 <section>
-	<div class="container mx-auto flex flex-col p-6 xl:flex-row">
-		<div class="my-20 w-full flex items-center space-y-10 text-center xl:my-0 xl:w-1/2 xl:text-left">
+	<div class="container mt-15 mx-auto flex flex-col p-6 lg:flex-row">
+		<div class="my-20 w-full flex items-center space-y-10 text-center xl:my-0 lg:w-1/2 xl:text-left">
 			<Header>Trusted by some of the biggest names in the business!</Header>
 		</div>
-        <div class="w-full items-center justify-center xl:w-1/2 lg:pl-25">
-			<div class="grid grid-cols-2 grid-rows-3 lg:grid-cols-3 lg:grid-rows-3 gap-10">
+        <div class="w-full items-center justify-center lg:w-1/2 border rounded-3xl overflow-hidden p-10">
+			<div class="grid">
                 <div>
-                    <img src={ovo} alt="">
+                    <img class="object-fill" src={ovo} alt="">
                 </div>
                 <div>
                     <img src={refcom} alt="">
@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="subgrid col-span-3">
-                        <img src={yourrepair} alt="">
+                        <img class="w-full" src={yourrepair} alt="">
                 </div>
             </div>
 		</div>

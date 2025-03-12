@@ -12,19 +12,19 @@
         <div class="w-full text-center mb-15"><Header>See our team in action!</Header></div>
         <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10">
             <div>
-                <img class="h-100 min-w-full object-cover" src={office2} alt="">
+                <img class="h-100 min-w-full object-cover rounded-3xl" src={office2} alt="">
             </div>
             <div>
-                <img class="h-100 min-w-full object-cover" src={office4} alt="">
+                <img class="h-100 min-w-full object-cover rounded-3xl" src={office4} alt="">
             </div>
             <div>
-                <img class="h-100 min-w-full object-cover" src={si1} alt="">
+                <img class="h-100 min-w-full object-cover rounded-3xl" src={si1} alt="">
             </div>
             <div>
-                <img class="h-100 min-w-full object-cover" src={visit1} alt="">
+                <img class="h-100 min-w-full object-cover rounded-3xl" src={visit1} alt="">
             </div>
             <div>
-                <img class="h-100 min-w-full object-cover" src={visit2} alt="">
+                <img class="h-100 min-w-full object-cover rounded-3xl" src={visit2} alt="">
             </div>
         </div>
     </div>

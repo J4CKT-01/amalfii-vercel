@@ -8,10 +8,10 @@
 </script>
 <section>
 	<div class="container mx-auto mt-15 flex flex-col-reverse p-6 lg:flex-row">
-		<div class="mb-15 w-full space-y-15 lg:space-y-25 text-center lg:mb-0">
+		<div class="w-full space-y-15 lg:space-y-25 text-center lg:mb-0">
 			<Header>Service Plans and Pricing</Header>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
-                <div class="shadow-xl flex flex-col p-6 space-y-10 text-center">
+                <div class="border rounded-2xl flex flex-col p-6 space-y-10 text-center">
                     <i class="fa-sharp-duotone fa-regular fa-temperature-arrow-up text-5xl mt-6"></i>
                     <h3 class="text-4xl grow">Annual Gas Boiler</h3>
                     <div>
@@ -20,7 +20,7 @@
                     </div>
                     <button class="px-4 py-2 bg-amber-300" onclick={() => (modal1 = true)}>Find out more...</button>
                 </div>
-                <div class="shadow-xl flex flex-col p-6 space-y-10 text-center">
+                <div class="border rounded-2xl flex flex-col p-6 space-y-10 text-center">
                     <i class="fa-sharp-duotone fa-regular fa-temperature-arrow-up text-5xl mt-6"></i>
                     <h3 class="text-4xl grow">Landlord Gas Safety Inspection</h3>
                     <div>
@@ -29,7 +29,7 @@
                     </div>
                     <button class="px-4 py-2 bg-amber-300" onclick={() => (modal2 = true)}>Find out more...</button>
                 </div>
-                <div class="shadow-xl flex flex-col p-6 space-y-10 text-center">
+                <div class="border rounded-2xl flex flex-col p-6 space-y-10 text-center">
                     <i class="fa-sharp-duotone fa-regular fa-temperature-arrow-up text-5xl mt-6"></i>
                     <h3 class="text-4xl grow">Annual Gas Boiler and Gas Fire</h3>
                     <div>
@@ -38,7 +38,7 @@
                     </div>
                     <button class="px-4 py-2 bg-amber-300" onclick={() => (modal3 = true)}>Find out more...</button>
                 </div>
-                <div class="shadow-xl flex flex-col p-6 space-y-10 text-center">
+                <div class="border rounded-2xl flex flex-col p-6 space-y-10 text-center">
                     <i class="fa-sharp-duotone fa-regular fa-temperature-arrow-up text-5xl mt-6"></i>
                     <h3 class="text-4xl grow">Air Source Heat Pump</h3>
                     <div>
@@ -47,7 +47,7 @@
                     </div>
                     <button class="px-4 py-2 bg-amber-300" onclick={() => (modal4 = true)}>Find out more...</button>
                 </div>
-                <div class="shadow-xl flex flex-col p-6 space-y-10 text-center">
+                <div class="border rounded-2xl flex flex-col p-6 space-y-10 text-center">
                     <i class="fa-sharp-duotone fa-regular fa-temperature-arrow-up text-5xl mt-6"></i>
                     <h3 class="text-4xl grow">Air Source Heat Pump and System</h3>
                     <div>
