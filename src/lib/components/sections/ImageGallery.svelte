@@ -8,9 +8,9 @@
 </script>
 
 <section>
-	<div class="container mx-auto mt-15 p-6 mb-15">
+	<div class="container mx-auto mt-5 lg:mt-15 p-2 lg:p-6 mb-5 lg:mb-15">
         <div class="w-full text-center mb-15"><Header>See our team in action!</Header></div>
-        <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-10">
             <div>
                 <img class="h-100 min-w-full object-cover rounded-3xl" src={office2} alt="">
             </div>
@@ -22,9 +22,6 @@
             </div>
             <div>
                 <img class="h-100 min-w-full object-cover rounded-3xl" src={visit1} alt="">
-            </div>
-            <div>
-                <img class="h-100 min-w-full object-cover rounded-3xl" src={visit2} alt="">
             </div>
         </div>
     </div>

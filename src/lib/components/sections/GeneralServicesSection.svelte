@@ -3,8 +3,8 @@
 </script>
 
 <section>
-	<div class="container mx-auto mt-15 flex flex-col p-6 lg:flex-row">
-        <div class="flex flex-col justify-center mb-15 w-full space-y-10 lg:space-y-25 text-center lg:mb-0 lg:w-1/2 lg:text-left">
+	<div class="container mx-auto mt-5 lg:mt-15 flex flex-col p-4 lg:p-6 lg:flex-row">
+        <div class="flex flex-col justify-center mb-15 w-full space-y-10 lg:space-y-25 text-left lg:mb-0 lg:w-1/2 lg:text-left">
             <Header>General services we provide</Header>
             <p class=" text-3xl">
                 In addition to service plans, Amalfii Heating can help with a variety of plumbing and 

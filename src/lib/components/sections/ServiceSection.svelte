@@ -7,8 +7,8 @@
     let modal5 = $state(false);
 </script>
 <section>
-	<div class="container mx-auto mt-15 flex flex-col-reverse p-6 lg:flex-row">
-		<div class="w-full space-y-15 lg:space-y-25 text-center lg:mb-0">
+	<div class="container mx-auto mt-15 flex flex-col-reverse p-2 lg:p-6 lg:flex-row">
+		<div class="w-full space-y-10 lg:space-y-25 lg:text-center lg:mb-0">
 			<Header>Service Plans and Pricing</Header>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
                 <div class="border rounded-2xl flex flex-col p-6 space-y-10 text-center">

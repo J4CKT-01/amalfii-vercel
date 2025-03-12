@@ -4,7 +4,7 @@
 </script>
 
 <section>
-	<div class="container mx-auto mt-0 flex flex-col-reverse p-6 lg:mt-15 lg:flex-row max-h-min">
+	<div class="container mx-auto mt-5 flex flex-col-reverse p-2 lg:p-6 lg:mt-15 lg:flex-row max-h-min">
 		<div class="flex w-full items-center justify-center lg:w-1/2">
 				<img
 					class="h-full w-full object-cover rounded-3xl"
@@ -12,7 +12,7 @@
 					alt=""
 				/>
 		</div>
-		<div class="mb-15 w-full space-y-10 lg:space-y-25 text-center lg:mb-0 lg:w-1/2 lg:text-left p-10">
+		<div class="mb-5 w-full space-y-10 lg:space-y-25 lg:mb-0 lg:w-1/2 text-left lg:p-10">
 			<Header>About us</Header>
 			<p class=" text-3xl">
 				Amalfii Heating is a family run company, built with 25 years of experience covering all

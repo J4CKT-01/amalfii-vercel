@@ -11,7 +11,7 @@
 </script>
 
 <section>
-	<div class="container mt-15 mx-auto flex flex-col p-6 lg:flex-row">
+	<div class="container mt-5 lg:mt-15 mx-auto flex flex-col p-2 lg:p-6 lg:flex-row">
 		<div class="my-20 w-full flex items-center space-y-10 text-center xl:my-0 lg:w-1/2 xl:text-left">
 			<Header>Trusted by some of the biggest names in the business!</Header>
 		</div>
