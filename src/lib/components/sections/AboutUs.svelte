@@ -4,8 +4,8 @@
 </script>
 
 <section>
-	<div class="container mx-auto mt-5 flex flex-col-reverse p-2 lg:p-6 lg:mt-15 lg:flex-row max-h-min">
-		<div class="flex w-full items-center justify-center lg:w-1/2">
+	<div class="container mx-auto mt-5 flex justify-between flex-col-reverse p-2 lg:p-6 lg:mt-15 lg:flex-row max-h-min">
+		<div class="flex w-full items-center justify-center lg:w-2/5">
 				<img
 					class="h-full w-full object-cover rounded-3xl"
 					src={FleetImage}
