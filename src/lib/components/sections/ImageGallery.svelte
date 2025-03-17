@@ -30,9 +30,9 @@
     				<h5 class="text-gray-500">Lead Engineer</h5>
 				</div>
 				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam doloremque deserunt
-					commodi optio error. Eaque, sunt quia? Repellat ab cum magnam explicabo numquam quibusdam,
-					alias minima porro excepturi quaerat molestias.
+					Simon is Amalfii Heating's lead engineer. Simon trained with one of the leading energy suppliers 25 years ago and has been working as a gas heating engineer and plumber ever since. Simon is Gas Safe registered, highly qualified and experienced and prides himself on providing fair, efficient and reliable services to our customers. 
+
+Recently Simon has acquired qualifications in providing service and maintenance of air source heat pumps, keeping our company moving forward into a greener era.  
 				</p>
 			</div>
 			<div class="flex flex-col space-y-5 items-center text-center p-6 shadow-md">
@@ -42,9 +42,7 @@
     				<h5 class="text-gray-500">Assistant Receptionist</h5>
 				</div>
 				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam doloremque deserunt
-					commodi optio error. Eaque, sunt quia? Repellat ab cum magnam explicabo numquam quibusdam,
-					alias minima porro excepturi quaerat molestias.
+					You may speak to Hannah on occasions! Hannah helps Karen out in the office, taking calls, and scheduling work in and, after completion of her digital marketing course, will be coming on board with us to showcase her social media skills!  
 				</p>
 			</div>
 		</div>
