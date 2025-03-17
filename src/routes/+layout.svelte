@@ -1,5 +1,13 @@
 <script lang="ts">
 	import logo from '$assets/logo.png';
+	import checkatrade from "$assets/checkatrade.webp";
+    import ovo from "$assets/ovo.png";
+    import refcom from "$assets/refcom.png";
+    import glowgreen from "$assets/gg.png";
+    import hometree from "$assets/ht.png";
+    import verysmart from "$assets/tvshc.png";
+    import boxt from "$assets/boxt.png";
+    import yourrepair from "$assets/yr.png";
 	import { page } from '$app/state';
 	import '../app.css';
 	let { children } = $props()
@@ -12,7 +20,7 @@
 	<!-- Nav Flex Box -->
 	 <div class="flex items-center justify-between">
 		<!-- Logo -->
-		<div class="flex"><img class="size-16" src={logo} alt=""></div>
+		<div class="flex"><img class="size-24" src={logo} alt=""></div>
 		<!-- Menu Buttons -->
 		<div class="hidden lg:flex justify-evenly text-2xl">
 			<a href="/" class="{page.route.id === "/" ? "bg-amber-300" : " "} py-4 px-15 ">Home</a>
@@ -35,20 +43,47 @@
 
 {@render children()}
 
+<div class="container mt-5 lg:mt-15 mx-auto flex flex-col p-2 lg:p-6 lg:flex-col">
+	<div class="flex flex-row min-h-min space-x-10">
+		<div>
+			<img src={ovo} alt="">
+		</div>
+		<div>
+			<img src={refcom} alt="">
+		</div>
+		<div>
+			<img src={glowgreen} alt="">
+		</div>
+		<div>
+			<img src={hometree} alt="">
+		</div>
+		<div>
+			<img src={verysmart} alt="">
+		</div>
+		<div>
+			<img src={boxt} alt="">
+		</div>
+
+		<div>
+			<img src={yourrepair} alt="">
+		</div>
+	</div>
+</div>
 <!-- Footer -->
 <footer class="bg-amber-300 w-full">
 	<!-- Footer Flex Box -->
 	<div class="container flex flex-col lg:flex-row items-center  mx-auto text-xl">
-		<!-- Social Icons -->
-		<!-- <div class="py-6 w-full lg:w-1/2 flex justify-center text-2xl">
-			<i class="fa-sharp-duotone fa-regular fa-thumbs-up"></i>
-			<i class="fa-sharp-duotone fa-regular fa-thumbs-up px-40"></i>
-			<i class="fa-sharp-duotone fa-regular fa-thumbs-up"></i>
-		</div> -->
-		<div class="py-5 w-full flex justify-evenly">
+		<div class="py-8 w-1/2 text-lg space-x-10 justify-center flex flex-row text-center">
 			<a class="hover:underline" href="/">Home</a>
 			<a class="hover:underline" href="/services">Services and Pricing</a>
 			<a class="hover:underline" href="/contact">Contact</a>
+		</div>
+		<div id="company-info" class="py-8 text-sm w-1/2 space-x-5 flex flex-col text-center">
+			<p>Company No: 1164596</p>
+			<p>VAT Reg: 353488671</p>
+			<p>Gas Safe No: 625151</p>
+			<p>Reg Office: Office 7, The Civic Centre,</p>
+			<p>Martins Way, Stourport-on-Severn, DY13 8UN</p>
 		</div>
 	</div>
 	<div class="w-full text-center py-3 text-gray-600">

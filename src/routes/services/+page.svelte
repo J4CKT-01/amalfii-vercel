@@ -1,10 +1,10 @@
 <script lang="ts">
-    import {ServiceSection, GeneralServicesSection, HomeThermostat} from '$lib';
+    import {ServiceSection, GeneralServicesSection, Appointments} from '$lib';
 </script>
 <svelte:head>
     <title>Services</title>
 </svelte:head>
 
 <ServiceSection />
+<Appointments />
 <GeneralServicesSection />
-<HomeThermostat />

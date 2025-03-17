@@ -11,7 +11,7 @@
 
 <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
 <dialog
-    class="w-2xl lg:w-lg m-auto"
+    class="w-full lg:w-1/3 m-auto max-h-3/4 overflow-scroll"
 	bind:this={dialog}
 	onclose={() => (showModal = false)}
 	onclick={(e) => { if (e.target === dialog) dialog.close(); }}

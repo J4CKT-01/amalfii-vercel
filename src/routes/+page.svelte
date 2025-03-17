@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { AboutUs, HeroSection, ImageGallery, TrustedBy } from "$lib";
+    import { AboutUs, HeroSection, HomeServices, ImageGallery } from "$lib";
 </script>
 
 <svelte:head>
@@ -7,6 +7,6 @@
 </svelte:head>
 
 <HeroSection />
+<HomeServices />
 <AboutUs />
-<TrustedBy />
 <ImageGallery />
