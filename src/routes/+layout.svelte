@@ -1,6 +1,5 @@
 <script lang="ts">
 	import logo from '$assets/logo.png';
-	import checkatrade from "$assets/checkatrade.webp";
     import ovo from "$assets/ovo.png";
     import refcom from "$assets/refcom.png";
     import glowgreen from "$assets/gg.png";
@@ -10,6 +9,7 @@
     import yourrepair from "$assets/yr.png";
 	import { page } from '$app/state';
 	import '../app.css';
+	import { goto } from '$app/navigation';
 	let { children } = $props()
 	let menuopen = $state(false);
 	$inspect(menuopen);
@@ -20,7 +20,7 @@
 	<!-- Nav Flex Box -->
 	 <div class="flex items-center justify-between">
 		<!-- Logo -->
-		<div class="flex"><img class="size-24" src={logo} alt=""></div>
+		<button onclick={() => goto("/")} class="flex hover:cursor-pointer"><img class="size-24" src={logo} alt=""></button>
 		<!-- Menu Buttons -->
 		<div class="hidden lg:flex justify-evenly text-2xl">
 			<a href="/" class="{page.route.id === "/" ? "bg-amber-300" : " "} py-4 px-15 ">Home</a>
