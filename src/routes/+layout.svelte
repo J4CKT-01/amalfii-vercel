@@ -90,6 +90,6 @@
 		</div>
 	</div>
 	<div class="w-full text-center py-3 text-gray-600">
-		<p>Amalfii Heating ©x-2024 All Rights Reserved. <a class="underline" href="/terms-and-conditions">Terms of Use</a> and <a class="underline" href="/terms-and-conditions">Privacy Policy</a></p>
+		<p>Amalfii Heating ©x-2024 All Rights Reserved. <a class="underline" href="/terms-and-conditions">Privacy Policy</a></p>
 	</div>
 </footer>
