@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
     import HeroImage from '$assets/hero.jpg.avif';
-    import GasSafe from '$assets/gassafe.png';
 </script>
 
 
@@ -31,8 +30,7 @@
                 </a>
             </div>
             <div class="flex flex-row justify-center lg:justify-start space-x-20">
-                <button class="px-4 py-4 w-fit bg-amber-300 text-2xl" onclick={() => goto('/contact')}>Book Your Free Quotation!</button>
-                <a href="/#company-info"><img class="size-16 object-fill" src={GasSafe} alt=""></a>
+                <button class="px-4 py-4 w-fit bg-amber-300 text-2xl" onclick={() => goto('/contact')}>Book Your Free Quotation!</button> 
             </div>
 
         </div>

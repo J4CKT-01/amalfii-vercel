@@ -1,6 +1,6 @@
 <script>
     import { goto } from '$app/navigation';
-	let { showModal = $bindable(), header, children } = $props();
+	let { showModal = $bindable(), header, children = null, button = null } = $props();
 
 	let dialog = $state(); // HTMLDialogElement
 
@@ -21,7 +21,13 @@
 		    {@render header?.()}
             </div>
     		{@render children?.()}
-		<!-- svelte-ignore a11y_autofocus -->
-		<button class="px-4 py-2 bg-amber-300" autofocus onclick={() => {dialog.close(); goto('/contact')}}>Contact Us</button>
+		<!-- svelte-ignore a11y_autofocus --> 
+		<button class="px-4 py-2 bg-amber-300" onclick={() => {dialog.close(); goto('/contact')}}>
+			{#if !button}
+			Contact Us
+			{:else}
+			{@render button()}
+			{/if}
+		</button>
 	</div>
 </dialog>

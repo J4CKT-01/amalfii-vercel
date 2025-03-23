@@ -14,7 +14,6 @@
                     </div>
                     <div class="flex flex-col items-center text-center space-y-2">
                         <i class="fa-sharp-duotone fa-regular fa-phone text-5xl mb-5"></i>
-                        <p class="text-2xl">07828 940481</p>
                         <p class="text-2xl">01905 978895</p>
                         <p class="text-sm px-15">If the office is unable to take your call, please leave 
                             us a message and we will get back to you as soon as possible!
@@ -27,7 +26,7 @@
                     <div class="flex flex-col items-center">
                         <i class="fa-sharp-duotone fa-regular fa-clock text-5xl mb-5"></i>
                         <p class="text-2xl">Mon-Fri: 8.30-18:00</p>
-                        <p class="text-2xl">Sat: 9:00-12:00 (Emegency Only)</p>
+                        <p class="text-2xl">Sat: 9:00-12:00 (Emergency Only)</p>
                     </div>
                 </div>
             </div>

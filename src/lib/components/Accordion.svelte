@@ -1,5 +1,5 @@
 <script lang="ts">
-    let { title, content } = $props();
+    let { title, content, list = null } = $props();
     let isOpen = $state(false);
 </script>
 
@@ -12,6 +12,10 @@
             {/if}
         </div>
         <div class="{isOpen ? "block" : "hidden"} text-xl text-left py-5">
+            {#if !list}
             <p>{content}</p>
+            {:else}
+            {@render list()}
+            {/if}
         </div>
     </button> 

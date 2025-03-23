@@ -10,7 +10,7 @@
 	<div class="container mx-auto mt-15 flex flex-col-reverse p-2 lg:p-6 lg:flex-row">
 		<div class="w-full space-y-10 lg:space-y-15 lg:text-center lg:mb-0">
 			<Header>Service Plans</Header>
-            <p>all service plans come with 15% labour discount, certificates and yearly reminders. <a href="/service-plans-terms-and-conditions" class="underline">terms and conditions apply</a></p>
+            <div class="w-full flex justify-start lg:justify-center"><p class="self-center w-full lg:w-1/3">all service plans come with 15% labour discount (if repairs are required), certificates and yearly reminders. <a href="/service-plans-terms-and-conditions" class="underline">terms and conditions apply</a></p></div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
                 <div class="border flex flex-col p-6 space-y-10 text-center">
                     <i class="fa-sharp-duotone fa-regular fa-temperature-arrow-up text-5xl mt-6"></i>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="border flex flex-col p-6 space-y-10 text-center">
                     <i class="fa-sharp-duotone fa-regular fa-air-conditioner text-5xl mt-6"></i>
-                    <h3 class="text-4xl grow">Air Source Heat Pump</h3>
+                    <h3 class="text-4xl grow">Air Source Heat Pump Basic Service</h3>
                     <div>
                         <h2 class="text-2xl font-bold underline decoration-amber-300 underline-offset-4">£14.99/Month</h2>
                         <p>(Inc. VAT)</p>
@@ -83,19 +83,22 @@
         <li>Smoke alarm testing</li>
         <li>Gas meter check and testing</li>
     </ul>
+    <p>One off service cost: £70 inc VAT</p>
 </Modal>
 
 <Modal bind:showModal={modal2}>
     {#snippet header()}
         <h3 class="text-4xl">Includes:</h3>
-        <p class="text-xl">an annual inspection and service of a single boiler in the plan holders property and an inspection of other gas appliances in the same property. as well as:</p>
+        <p class="text-xl">an annual inspection and service of a single boiler in the plan holders property and a visual inspection of other gas appliances in the same property. as well as:</p>
 	{/snippet}
 
     <ul class="list-disc ps-4 space-y-1">
         <li>Carbon monoxide monitor testing</li>
         <li>Smoke alarm testing</li>
         <li>Gas meter check and testing</li>
+        <li>CP12 Produced and date managed.</li>
     </ul>
+    <p>Remember: Having a valid CP12 in a rental property is a legal requirement.</p>
 </Modal>
 
 <Modal bind:showModal={modal3}>
@@ -125,7 +128,9 @@
         <li>Pressures checked</li>
         <li>Checking flow rate and adjust if necessary</li>
         <li>Checking and optimising controller settings</li>
+        <li>Paperwork completed</li>
     </ul>
+    <p>One off service cost: £180 inc VAT</p>
 </Modal>
 
 <Modal bind:showModal={modal5}>
@@ -144,5 +149,8 @@
         <li>Checking Electrical supply, condition and operation</li>
         <li>Checking refrigerant pressures and heatline temperatures</li>
         <li>Checking for fault codes on control unit</li>
+        <li>Paperwork Completed</li>
     </ul>
+
+    <p>One off service cost: £240 + VAT</p>
 </Modal>

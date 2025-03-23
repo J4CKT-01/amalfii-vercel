@@ -18,9 +18,23 @@
 				content="Yes, we are fully Gas Safe registered and qualified to work on gas appliances safely. You can verify our credentials on the Gas Safe Register  www.gassaferegister.co.uk "
 			/>
 			<Accordion
-				title="Do you provide emergency plumbing services?"
-				content="No, we do not offer 24/7 emergency plumbing services, however we will come out to you as soon as we possibly can. If you have an uncontainable leak, turn off the water at the stopcock "
+				title="Do you offer 24hr emergency callouts?"
+				content="No, we do not offer 24/7 emergency callouts, however, we will come out to you as soon as we possibly can. If you have an uncontainable leak, turn off the water at the stopcock "
 			/>
+			<Accordion
+				title="What if I smell gas?"
+				content=""
+			>
+			{#snippet list()}			
+				<ol class="list-decimal pl-10">
+					<li><span class="font-bold">Do not ignore it.</span> Smelling gas can be sign of a leak and can be dangerous.</li>
+					<li>Don't use electrical devices that could cause a spark and <span class="font-bold">DON'T</span> use matches or lighters.</li>
+					<li><span class="font-bold">CALL FOR HELP</span> from a safe location. Call the National Gas Emergency Service immediately on 0800 111 999 (24hrs free phone).</li>
+					<li>Open windows and doors.</li>
+					<li>Evacuate the area.</li>
+				</ol>
+			{/snippet}
+			</Accordion>
 			<Accordion
 				title="What areas do you cover?"
 				content="We serve Worcestershire, Gloucestershire and the M5 corridor down to Bristol. Contact us to check if we operate in your area. "
@@ -57,7 +71,7 @@
 			/>
 			<Accordion
 				title="What payment methods do you accept?"
-				content="We accept cash, bank transfers, and most major debit/credit cards."
+				content="We accept cash, bank transfers and most major debit/credit cards. As well as monthly direct debits for all our servicing plans."
 			/>
 			<Accordion
 				title="Are your services guaranteed?"
@@ -75,7 +89,7 @@
 			/>
 			<Accordion
 				title="What should I do if I have a burst pipe?"
-				content="Turn of your main water supply imeediately and contact us for emergency 
+				content="Turn of your main water supply immediately and contact us for emergency 
             assistance."
 			/>
 			<Accordion
@@ -95,10 +109,10 @@
 			/>
 			<Accordion
 				title="What boiler brands do you install and repair?"
-				content="We install, repair and service leading brands such as Worcester Bosch, Vaillant, Ideal, and Baxi."
+				content="We install, repair and service leading brands such as Worcester Bosch, Vaillant, Ideal, Baxi and many more."
 			/>
 			<Accordion
-				title="My boiler is making strange noises – what should I do?"
+				title="My boiler is making strange noises - what should I do?"
 				content="Noisy boilers can be caused by air in the system, low pressure, or limescale buildup. Contact us for an inspection before it leads to bigger issues."
 			/>
 			<Accordion
@@ -114,8 +128,8 @@
 				content="Yes, we can service air source heat pumps."
 			/>
             <Accordion
-				title="How often should my heat pump be serviced?"
-				content="We recommend that your system is serviced anually."
+				title="How often should my air source heat pump be serviced?"
+				content="We recommend that your system is serviced annually."
 			/> 
 		</div>
 	</div>

@@ -10,6 +10,7 @@
 	import { page } from '$app/state';
 	import '../app.css';
 	import { goto } from '$app/navigation';
+	import GasSafe from '$assets/gassafe.png';
 	let { children } = $props()
 	let menuopen = $state(false);
 	$inspect(menuopen);
@@ -40,7 +41,9 @@
 	</div>
 </nav>
 
-
+<div class="fixed bottom-0 right-0 p-6 z-10">
+	<a href="/#company-info"><img class="size-16 lg:size-32 object-fill" src={GasSafe} alt=""></a>
+</div>
 {@render children()}
 
 <div class="container mt-5 lg:mt-15 mx-auto flex flex-col p-2 lg:p-6 lg:flex-col">
