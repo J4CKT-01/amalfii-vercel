@@ -70,7 +70,7 @@
         <p class="text-xl">Having your boiler regularly serviced and maintained is essential to keep it running smoothly and avoiding any breakdowns. We recommend having your boiler serviced once a year to ensure it continues to run safely and efficiently.
             Our engineers are experienced in servicing all makes and models of gas boilers.
             Regular servicing not only extends the life of your boiler, but also helps in detecting any potential faults, saving you from costly repairs in the future.</p>
-            <p class="text-xl font-bold">Our boiler services cost £70 (inc VAT)</p>
+            <p class="text-xl font-bold">Our boiler services cost £70 + VAT</p>
         <h4 class="text-3xl font-bold">Boiler Repairs</h4>
         <p class="text-xl">
             When your boiler breaks down, our Gas Safe heating engineers can address a wide range of issues to restore warmth and comfort to your home and business. They can diagnose and repair problems such as faulty thermostats, leaking or frozen pipes, broken pilot lights, and malfunctioning pumps or valves. If the boiler isn’t producing heat or hot water, they will inspect components like the heat exchanger, ignition system, and pressure levels to identify the cause. In addition, they can handle blockages or buildup in the system, clean or replace filters, and ensure safety features like pressure relief valves are functioning correctly. Our engineer's expertise ensures a thorough and efficient repair, getting your boiler back in optimal working condition asap. 

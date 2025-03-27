@@ -83,7 +83,7 @@
         <li>Smoke alarm testing</li>
         <li>Gas meter check and testing</li>
     </ul>
-    <p>One off service cost: £70 inc VAT</p>
+    <p>One off service cost: £70 + VAT</p>
 </Modal>
 
 <Modal bind:showModal={modal2}>

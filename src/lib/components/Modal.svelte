@@ -7,6 +7,11 @@
 	$effect(() => {
 		if (showModal) dialog.showModal();
 	});
+
+	$effect.pre(() => {
+		let mybutton = document.getElementById("contact-button");
+		mybutton?.blur();
+	})
 </script>
 
 <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
@@ -22,7 +27,7 @@
             </div>
     		{@render children?.()}
 		<!-- svelte-ignore a11y_autofocus --> 
-		<button class="px-4 py-2 bg-amber-300" onclick={() => {dialog.close(); goto('/contact')}}>
+		<button id="contact-button" class="px-4 py-2 bg-amber-300" onclick={() => {dialog.close(); goto('/contact')}}>
 			{#if !button}
 			Contact Us
 			{:else}
