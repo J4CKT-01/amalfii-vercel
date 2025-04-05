@@ -1,3 +1,11 @@
+<svelte:head>
+    <title>Terms and Conditions</title>
+    <meta
+        name="description"
+        content="Find out how Amalfii Heating collects, processes, and stores your data in line with GDPR."
+        >
+</svelte:head>
+
 <section class="container p-6">
     <p style="margin: 0px 0px 10.666667px;padding: 0px;font-weight: normal;font-style: normal;vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;text-indent: 0px;"><span style="margin: 0px;padding: 0px;font-size:16px;line-height: 20.925px;font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;font-weight: bold;"><span style="margin: 0px;padding: 0px;">General Privacy Policy</span></span><span style="margin: 0px;padding: 0px;font-size:16px;line-height: 20.925px;font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;">&nbsp;</span></p>
     <p style="margin: 0px 0px 10.666667px;padding: 0px;font-weight: normal;font-style: normal;vertical-align: baseline;background-color: transparent;color: windowtext;text-align: left;text-indent: 0px;"><span style="margin: 0px;padding: 0px;font-size:16px;line-height: 20.925px;font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;"><span style="margin: 0px;padding: 0px;">Privacy Notice and Policy: August 2020</span></span><span style="margin: 0px;padding: 0px;font-size:16px;line-height: 20.925px;font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;">&nbsp;</span></p>

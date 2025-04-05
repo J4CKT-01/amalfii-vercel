@@ -21,7 +21,7 @@
 	<!-- Nav Flex Box -->
 	 <div class="flex items-center justify-between">
 		<!-- Logo -->
-		<button onclick={() => goto("/")} class="flex hover:cursor-pointer"><img class="size-24" src={logo} alt=""></button>
+		<button onclick={() => goto("/")} class="flex hover:cursor-pointer" aria-label="Go to Homepage"><img class="size-24" src={logo} alt="amalfii logo"></button>
 		<!-- Menu Buttons -->
 		<div class="hidden lg:flex justify-evenly text-2xl">
 			<a href="/" class="{page.route.id === "/" ? "bg-amber-300" : " "} py-4 px-15 ">Home</a>
@@ -42,33 +42,33 @@
 </nav>
 
 <div class="fixed bottom-0 right-0 p-6 z-10">
-	<a href="/#company-info"><img class="size-16 lg:size-32 object-fill" src={GasSafe} alt=""></a>
+	<a href="/#company-info"><img class="size-16 lg:size-32 object-fill" src={GasSafe} alt="gas safe logo" aria-label="Gas Safe Link"></a>
 </div>
 {@render children()}
 
 <div class="container mt-5 lg:mt-15 mx-auto flex flex-col p-2 lg:p-6 lg:flex-col">
 	<div class="flex flex-row min-h-min space-x-10">
 		<div>
-			<img src={ovo} alt="">
+			<img src={ovo} alt="ovo logo">
 		</div>
 		<div>
-			<img src={refcom} alt="">
+			<img src={refcom} alt="refcom logo">
 		</div>
 		<div>
-			<img src={glowgreen} alt="">
+			<img src={glowgreen} alt="glowgreen logo">
 		</div>
 		<div>
-			<img src={hometree} alt="">
+			<img src={hometree} alt="hometree logo">
 		</div>
 		<div>
-			<img src={verysmart} alt="">
+			<img src={verysmart} alt="very smart home company logo">
 		</div>
 		<div>
-			<img src={boxt} alt="">
+			<img src={boxt} alt="boxt logo">
 		</div>
 
 		<div>
-			<img src={yourrepair} alt="">
+			<img src={yourrepair} alt="your repair logo">
 		</div>
 	</div>
 </div>

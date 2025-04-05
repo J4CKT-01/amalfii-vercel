@@ -1,7 +1,10 @@
-<script>
-	import { linear } from "svelte/easing";
-
-</script>
+<svelte:head>
+    <title>Service Plans | T&C</title>
+    <meta
+    name="description"
+    content="Amalfii Heating Service Plans Terms and Conditions"
+    >
+</svelte:head>
 <section class="p-10 space-y-10">
     <h1 class="text-5xl font-bold">Terms and Conditions </h1> 
     
