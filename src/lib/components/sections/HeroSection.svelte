@@ -34,7 +34,7 @@
             </div>
 
         </div>
-        <div class="h-160 hidden lg:block">
+        <div class="h-160 aspect-square hidden lg:block">
             <img class="object-cover w-full h-full" src={HeroImage} alt="">
         </div>
     </div>

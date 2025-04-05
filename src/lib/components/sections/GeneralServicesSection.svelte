@@ -13,25 +13,25 @@
 <section>
 	<div class="container mx-auto mb-5 mt-5 lg:mt-15 lg:mb-15 flex flex-col p-2 lg:p-6 lg:flex-row">
     <div class="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 w-full gap-10">
-        <div class="h-125" style="background-image: url({PlumbingImage}); background-position: 50%;">
+        <div class="aspect-square" style="background-image: url({PlumbingImage}); background-position: 50%;">
            <div class="backdrop-brightness-25 w-full h-full text-white flex flex-col items-center justify-center space-y-20 p-10 text-center">
             <h2 class="text-6xl font-bold">Plumbing</h2>
             <button class="px-4 py-4 w-fit bg-amber-300 text-2xl text-black hover:cursor-pointer" onclick={() => plumbingModal = true}>Explore</button>
            </div> 
         </div>
-        <div class="h-125" style="background-image: url({BoilerImage}); background-position: 90% 5%;">
+        <div class="aspect-square" style="background-image: url({BoilerImage}); background-position: 90% 5%;">
             <div class="backdrop-brightness-25 w-full h-full text-white flex flex-col items-center justify-center space-y-20 p-10 text-center">
              <h2 class="text-6xl font-bold">Boilers and Heating Systems</h2>
              <button class="px-4 py-4 w-fit bg-amber-300 text-2xl text-black hover:cursor-pointer" onclick={() => boilersModal = true}>Explore</button>
             </div> 
          </div>
-         <div class="h-125" style="background-image: url({SmartThermoImage}); background-position: 20% 35%;">
+         <div class="aspect-square" style="background-image: url({SmartThermoImage}); background-position: 20% 35%;">
             <div class="backdrop-brightness-25 w-full h-full text-white flex flex-col items-center justify-center space-y-20 p-10 text-center">
              <h2 class="text-6xl font-bold">Smart Home Thermostats</h2>
              <button class="px-4 py-4 w-fit bg-amber-300 text-2xl text-black hover:cursor-pointer" onclick={() => smartthermosModal = true}>Explore</button>
             </div> 
          </div>
-         <div class="h-125" style="background-image: url({ASHPImage})">
+         <div class="aspect-square" style="background-image: url({ASHPImage})">
             <div class="backdrop-brightness-25 w-full h-full text-white flex flex-col items-center justify-center space-y-20 p-10 text-center">
              <h2 class="text-6xl font-bold">Air Source Heat Pumps</h2>
              <button class="px-4 py-4 w-fit bg-amber-300 text-2xl text-black hover:cursor-pointer" onclick={() => ashpModal = true}>Explore</button>
