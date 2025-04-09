@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-    import HeroImage from '$assets/hero.jpg.avif';
+    import HeroImage from '$assets/hero.jpg';
 </script>
 
 
@@ -34,7 +34,7 @@
             </div>
 
         </div>
-        <div class="h-160 aspect-square hidden lg:block">
+        <div class="aspect-square hidden lg:block">
             <img class="object-cover w-full h-full" src={HeroImage} alt="">
         </div>
     </div>
