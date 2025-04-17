@@ -1,7 +1,4 @@
 <script lang="ts">
-	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
-
-	injectSpeedInsights();
 	import logo from '$assets/logo.png';
     import ovo from "$assets/ovo.png";
     import refcom from "$assets/refcom.png";
