@@ -44,7 +44,7 @@
 			<div class="relative">
 				<button {@attach setDropdownPosition} onclick={() => servicemenuopen = !servicemenuopen}
 					class="{page.route.id.includes("/service") ? "bg-amber-300" : " "} py-4 px-15 hover:cursor-pointer"
-					>Services</button>
+					>Our Services</button>
 					{#if servicemenuopen}
 				<div class="absolute flex flex-col gap-0.5 shadow-md bg-white left-0 top-full w-100">
 					<a href="/services/service-plans" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/service-plans" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Service Plans</a>
@@ -70,7 +70,7 @@
 	</div>
 	<div class="{menuopen ? "flex" : "hidden"} flex-col lg:hidden justify-evenly text-2xl text-center">
 		<a href="/" onclick={() => menuopen = false} class="{page.route.id === "/" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Home</a>
-		<button aria-label="menu" onclick={() => servicemenuopen = !servicemenuopen} class="{servicemenuopen ? "bg-amber-300" : " "} py-4 px-15 ">Services <i class="fa-sharp-duotone fa-regular fa-caret-right"></i></button>
+		<button aria-label="menu" onclick={() => servicemenuopen = !servicemenuopen} class="{servicemenuopen ? "bg-amber-300" : " "} py-4 px-15 ">Our Services <i class="fa-sharp-duotone fa-regular fa-caret-right"></i></button>
 		<div class="{servicemenuopen ? "flex" : "hidden"} flex-col justify-evenly text-2xl text-center shadow-xl">
 			<a href="/services/plumbing" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/plumbing" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Plumbing</a>
 			<a href="/services/boilers" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/boilers" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Boilers</a>
