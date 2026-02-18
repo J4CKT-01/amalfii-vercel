@@ -10,7 +10,7 @@
     
     <h2 class="text-3xl">Amalfii Heating Service Plan Agreement </h2>
     
-    <h3 class="text-xl underline">Compiled July 2024 by K Brighton (Director) and which will be reviewed annually. </h3>
+    <h3 class="text-xl underline">Terms and Conditions reviewed by K Brighton Feb 2026</h3>
     
      
     
@@ -70,7 +70,7 @@
     <p class="text-2xl font-bold">2.1 Annual Domestic Gas Boiler Service Plan </p>
     
 <p class="text-xl">
-        This plan costs £6.99 per month including vat, but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
+        This plan costs £9.99 per month including vat, but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
     
 </p>    
      
@@ -126,7 +126,7 @@
     <p class="text-2xl font-bold">2.2 Annual gas boiler and gas fire service plan</p> 
     
     <p class="text-xl">
-        This plan costs £9.99 per month including vat, but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
+        This plan costs £13.99 per month including vat, but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
         
         The service will be arranged at a time and date convenient to you and in the month of your contract renewal unless otherwise arranged with the service plan holder beforehand. 
         
@@ -182,7 +182,7 @@
     <p class="text-2xl font-bold">2.3   Landlord Gas Safety Inspection and Boiler Service Plan</p> 
     
 <p class="text-xl">
-        At a cost of £7.99 per month including vat (per boiler per property, multiple boilers or multiple properties require quotation) This can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
+        At a cost of £10.99 per month including vat (per boiler per property, multiple boilers or multiple properties require quotation) This can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
         
 </p>
      
@@ -235,7 +235,7 @@
     <p class="text-2xl font-bold">2.4 Air Source Heat Pump (Basic Service) </p>
     
     <p class="text-xl">
-        At a cost of £14.99 per month including vat but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
+        At a cost of £13.99 per month including vat but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
         
          The service will be arranged at a time and date convenient to you and in the month of your contract renewal unless otherwise arranged with the service plan holder beforehand. 
         
@@ -311,7 +311,7 @@
     <p class="text-2xl font-bold">2.5 Air Source Heat Pump And System Service Plan </p>
     
     <p class="text-xl">
-        This service plan costs £17.99 per month including vat but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
+        This service plan costs £19.99 per month including vat but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
         
         The service will be arranged at a time and date convenient to you and in the month of your contract renewal unless otherwise arranged with the service plan holder beforehand. 
     </p>

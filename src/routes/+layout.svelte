@@ -11,11 +11,27 @@
 	import '../app.css';
 	import { goto } from '$app/navigation';
 	import GasSafe from '$assets/gassafe.png';
-	let { children } = $props()
-	let menuopen = $state(false);
-	$inspect(menuopen);
-</script>
+	import type { Attachment } from 'svelte/attachments';
 
+	let { children } = $props()
+
+	let menuopen = $state(false);
+	let servicemenuopen = $state(false);
+	let surveymenuopen = $state(false);
+	let top = $state(0), left = $state(0);
+
+	function setDropdownPosition(element: HTMLElement) {
+		const rect = element.getBoundingClientRect();
+		top = rect.bottom;
+		left = rect.left;
+
+	$effect(() => {
+		if (!servicemenuopen) {
+			surveymenuopen = false;
+		}
+	})
+	}
+</script>
 <!-- Nav Container -->
 <nav class="container mx-auto">
 	<!-- Nav Flex Box -->
@@ -25,8 +41,26 @@
 		<!-- Menu Buttons -->
 		<div class="hidden lg:flex justify-evenly text-2xl">
 			<a href="/" class="{page.route.id === "/" ? "bg-amber-300" : " "} py-4 px-15 ">Home</a>
-			<a href="/services" class="{page.route.id === "/services" ? "bg-amber-300" : " "} py-4 px-15">Services and Pricing</a>
-			<a href="/contact" class="{page.route.id === "/contact" ? "bg-amber-300" : " "} py-4 px-15 ">Contact</a>
+			<div class="relative">
+				<button {@attach setDropdownPosition} onclick={() => servicemenuopen = !servicemenuopen}
+					class="{page.route.id.includes("/service") ? "bg-amber-300" : " "} py-4 px-15 hover:cursor-pointer"
+					>Services</button>
+					{#if servicemenuopen}
+				<div class="absolute flex flex-col gap-0.5 shadow-md bg-white left-0 top-full w-100">
+					<a href="/services/service-plans" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/service-plans" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Service Plans</a>
+					<a href="/services/plumbing" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/plumbing" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Plumbing</a>
+					<a href="/services/boilers" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/boilers" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Boilers</a>
+					<a href="/services/air-source-heat-pumps" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/air-source-heat-pumps" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Air Source Heat Pumps</a>
+					<button href="/services/surveys" onclick={() => {surveymenuopen = !surveymenuopen;}} class="{page.route.id.startsWith("/services/surveys") ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15 items-center flex hover:cursor-pointer">Surveys <span class="ms-5"><i class="fa-sharp-duotone fa-regular fa-caret-right"></i></span></button>
+					{#if surveymenuopen}
+					<a href="/services/surveys/pre-purchase-plumbing-and-heating" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/surveys/pre-purchase-plumbing-and-heating" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Pre-Purchase Plumbing & Heating</a>
+					<a href="/services/surveys/air-source-heat-pumps-suitability" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/surveys/air-source-heat-pumps-suitability" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15 border-b">Air Source Heat Pump Suitability</a>
+					{/if}
+					<a href="/services/smart-home" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/smart-home" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Smart Home</a>
+				</div>
+			{/if}
+			</div>
+			<a href="/contact" class="{page.route.id === "/contact" ? "bg-amber-300" : " "} py-4 px-15">Contact</a>
 		</div>
 	<!-- Dropdown Button -->
 	<div class="flex lg:hidden text-2xl">
@@ -36,7 +70,18 @@
 	</div>
 	<div class="{menuopen ? "flex" : "hidden"} flex-col lg:hidden justify-evenly text-2xl text-center">
 		<a href="/" onclick={() => menuopen = false} class="{page.route.id === "/" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Home</a>
-		<a href="/services" onclick={() => menuopen = false} class="{page.route.id === "/services" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Services and Pricing</a>
+		<button aria-label="menu" onclick={() => servicemenuopen = !servicemenuopen} class="{servicemenuopen ? "bg-amber-300" : " "} py-4 px-15 ">Services <i class="fa-sharp-duotone fa-regular fa-caret-right"></i></button>
+		<div class="{servicemenuopen ? "flex" : "hidden"} flex-col justify-evenly text-2xl text-center shadow-xl">
+			<a href="/services/plumbing" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/plumbing" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Plumbing</a>
+			<a href="/services/boilers" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/boilers" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Boilers</a>
+			<a href="/services/air-source-heat-pumps" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/air-source-heat-pumps" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Air Source Heat Pumps</a>
+			<button href="/services/surveys" onclick={() => {surveymenuopen = !surveymenuopen;}} class="{page.route.id.startsWith("/services/surveys") ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15 items-center flex justify-center hover:cursor-pointer">Surveys <span class="ms-2"><i class="fa-sharp-duotone fa-regular fa-caret-right"></i></span></button>
+				{#if surveymenuopen}
+				<a href="/services/surveys/pre-purchase-plumbing-and-heating" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/surveys/pre-purchase-plumbing-and-heating" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Pre-Purchase Plumbing & Heating</a>
+				<a href="/services/surveys/air-source-heat-pumps-suitability" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/surveys/air-source-heat-pumps-suitability" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15 border-b">Air Source Heat Pump Suitability</a>
+				{/if}
+			<a href="/services/smart-home" onclick={() => {servicemenuopen = false; menuopen = false}} class="{page.route.id === "/services/smart-home" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Smart Home</a>
+		</div>
 		<a href="/contact" onclick={() => menuopen = false} class="{page.route.id === "/contact" ? "bg-amber-300 underline" : " "} hover:underline py-4 px-15">Contact</a>
 	</div>
 </nav>
