@@ -1,6 +1,6 @@
 <script lang="ts">
     import {Modal, ServicePlanFAQ, Title, Header} from '$lib';
-    import Fleet from '$assets/fleet.png';
+    import Fleet from '$assets/vist-and-van.jpg';
     let modal1 = $state(false);
     let modal2 = $state(false);
     let modal3 = $state(false);
@@ -30,7 +30,7 @@ Regular servicing helps maintain manufacturer warranties where applicable and al
                     </p>
                 </div>
                 <div class="space-y-5">
-                    <img class="" src={Fleet} alt="">
+                    <img class="h-100 w-full overflow-hidden object-cover" src={Fleet} alt="">
                 </div>
             </div>
 </section>
@@ -44,7 +44,7 @@ Regular servicing helps maintain manufacturer warranties where applicable and al
                     <i class="fa-sharp-duotone fa-regular fa-temperature-arrow-up text-5xl mt-6"></i>
                     <h3 class="text-2xl grow">Annual Gas Boiler</h3>
                     <div>
-                        <h2 class="text-2xl font-bold underline decoration-amber-300 underline-offset-4">£9.99/Month</h2>
+                        <h2 class="text-2xl font-bold underline decoration-amber-300 underline-offset-4">£10.99/Month</h2>
                         <p>(Inc. VAT)</p>
                     </div>
                     <button class="px-4 py-2 bg-amber-300" onclick={() => (modal1 = true)}>Find out more...</button>
@@ -53,7 +53,7 @@ Regular servicing helps maintain manufacturer warranties where applicable and al
                     <i class="fa-sharp-duotone fa-regular fa-house text-5xl mt-6"></i>
                     <h3 class="text-2xl grow">Landlord Gas Safety Inspection</h3>
                     <div>
-                        <h2 class="text-2xl font-bold underline decoration-amber-300 underline-offset-4">£10.99/Month</h2>
+                        <h2 class="text-2xl font-bold underline decoration-amber-300 underline-offset-4">£11.99/Month</h2>
                         <p>(Inc. VAT)</p>
                     </div>
                     <button class="px-4 py-2 bg-amber-300" onclick={() => (modal2 = true)}>Find out more...</button>

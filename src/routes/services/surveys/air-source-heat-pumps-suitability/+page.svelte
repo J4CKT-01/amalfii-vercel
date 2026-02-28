@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Header, ASHPSurveyFAQ, Title } from "$lib";
-    import Fleet from "$assets/fleet.png";
+    import Meet from "$assets/meet.jpeg";
 
     let services = [
         "Current boiler and heating system",
@@ -36,7 +36,7 @@
                     </p>
                 </div>
                 <div class="space-y-5 flex">
-                    <img class="" src={Fleet} alt="">
+                    <img class="h-100 w-full object-cover" src={Meet} alt="">
                 </div>
             </div>
 </section>
@@ -72,7 +72,6 @@
                     </p>
                 </div>
             </div>
-            <div>
 </section>
 
 <section class="container mx-auto mt-5 p-2 lg:p-6 space-y-15">

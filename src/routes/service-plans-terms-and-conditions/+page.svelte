@@ -70,7 +70,7 @@
     <p class="text-2xl font-bold">2.1 Annual Domestic Gas Boiler Service Plan </p>
     
 <p class="text-xl">
-        This plan costs £9.99 per month including vat, but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
+        This plan costs £10.99 per month including vat, but this can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
     
 </p>    
      
@@ -182,7 +182,7 @@
     <p class="text-2xl font-bold">2.3   Landlord Gas Safety Inspection and Boiler Service Plan</p> 
     
 <p class="text-xl">
-        At a cost of £10.99 per month including vat (per boiler per property, multiple boilers or multiple properties require quotation) This can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
+        At a cost of £11.99 per month including vat (per boiler per property, multiple boilers or multiple properties require quotation) This can be subject to change from time to time, as decided by Amalfii Heating and any such increase will be notified to the customer by Amalfii Heating before it becomes payable. 
         
 </p>
      

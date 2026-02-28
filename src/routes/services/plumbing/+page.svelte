@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Header, PlumbingFAQ, Title } from "$lib";
-    import Plumbing from "$assets/plumbing.jpg";
+    import Plumbing from "$assets/bathroom-plumbing.jpeg";
 
     let services = [
         "Water leak repairs", "New pipe installation and repair",

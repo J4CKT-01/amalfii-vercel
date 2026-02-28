@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { ASHPFAQ, Header, Title } from "$lib";
-    import ASHP from "$assets/ashp.jpg";
+    import ASHP from "$assets/ashp.jpeg";
 
     let services = [
         "Lower your energy bills", "Cut your carbon footprint",
@@ -30,7 +30,7 @@ Regular maintenance and timely repairs help prevent leaks, water damage, and cos
             </p>
         </div>
         <div class="space-y-5">
-            <img class="" src={ASHP} alt="">
+            <img class="h-100 w-full object-cover" src={ASHP} alt="">
         </div>
     </div>
 </section>

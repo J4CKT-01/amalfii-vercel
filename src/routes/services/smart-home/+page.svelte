@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Header, SmartHomeFAQ, Title } from "$lib";
-    import SmartHome from "$assets/smart-thermostat.jpg";
+    import SmartHome from "$assets/smart-thermostat.jpeg";
 
     let services = [
         "Set and adjust the temperature of your heating system",
@@ -31,7 +31,7 @@
 Professional installation ensures your smart thermostat integrates seamlessly with your existing boiler or heating system. Ongoing support and setup guidance help you get the most from its features, improving convenience, efficiency, and overall system performance throughout the year.</p>
                 </div>
                 <div class="space-y-5">
-                    <img class="" src={SmartHome} alt="">
+                    <img class="h-100 w-full object-cover" src={SmartHome} alt="">
                 </div>
             </div>
 </section>

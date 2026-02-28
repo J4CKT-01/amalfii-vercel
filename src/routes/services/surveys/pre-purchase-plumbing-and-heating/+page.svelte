@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Header, PrePurchaseSurveyFAQ, Title } from "$lib";
-    import Fleet from "$assets/fleet.png";
+    import Sold from "$assets/sold.jpeg";
 
     let services = [
         "Boiler age, condition and general safety",
@@ -34,7 +34,7 @@
                          a property has an older boiler or heating system, or where you simply want reassurance and realistic guidance before exchange. These surveys are often requested following a homebuyer survey where heating or plumbing concerns have been highlighted.</p>
                 </div>
                 <div class="space-y-5 flex">
-                    <img class="" src={Fleet} alt="">
+                    <img class="h-100 w-full object-cover" src={Sold} alt="">
                 </div>
             </div>
 </section>
@@ -83,7 +83,7 @@
         <div class="flex flex-col justify-center items-center text-2xl p-6 space-y-10 border">
             <i class="fa-sharp-duotone fa-regular fa-house text-6xl"></i>
             <div class="h-15"><p class="text-2xl">Standard Local Property</p></div>
-            <p class="text-3xl font-semibold">£250</p>
+            <p class="text-3xl font-semibold">£150</p>
         </div>
         <div class="flex flex-col justify-center items-center text-2xl p-6 space-y-10 border">
             <i class="fa-sharp-duotone fa-regular fa-house-turret text-6xl"></i>

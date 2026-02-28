@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { BoilerFAQ, Header, Title } from "$lib";
-    import Boiler from "$assets/boiler.jpg";
+    import Boiler from "$assets/boiler.jpeg";
 </script>
 
 <svelte:head>
@@ -23,7 +23,7 @@
 Routine servicing is essential to keep your boiler operating safely and efficiently. Regular inspections help identify potential issues early, prevent unexpected breakdowns, and extend the lifespan of your system. If a problem does arise, prompt and professional repairs can quickly restore heating and hot water, minimising disruption and keeping your home or business comfortable.</p>
                 </div>
                 <div class="space-y-5">
-                    <img class="" src={Boiler} alt="">
+                    <img class="h-100 w-full object-cover" src={Boiler} alt="">
                 </div>
             </div>
 </section>
