@@ -10,19 +10,19 @@
         <h1 class="text-8xl font-bold">Amal<span class="text-amber-300">fii</span> Heating</h1>
         <h2 class="text-4xl">Experts in home heating solutions</h2>
             <div class="flex flex-row lg:space-x-15 lg:flex-row justify-evenly lg:justify-start">
-                <a href="/services">
+                <a href="/services/boilers">
                     <div class="flex flex-col items-center space-y-2">
                         <i class="fa-sharp-duotone fa-regular fa-sign-posts-wrench text-5xl"></i>
                         <h3 class="text-2xl">Installations</h3>
                     </div>
                 </a>
-                <a href="/services">
+                <a href="/services/boilers">
                     <div class="flex flex-col items-center space-y-2">
                         <i class="fa-sharp-duotone fa-regular fa-toolbox text-5xl"></i>
                         <h3 class="text-2xl">Repairs</h3>
                     </div>
                 </a>
-                <a href="/services">
+                <a href="/services/service-plans">
                     <div class="flex flex-col items-center space-y-2">
                         <i class="fa-sharp-duotone fa-regular fa-repeat text-5xl"></i>
                         <h3 class="text-2xl">Service Plans</h3>
